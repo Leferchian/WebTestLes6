@@ -1,0 +1,29 @@
+{
+  "name": "lesson6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "edge:headed:notebooks": "cypress run --headed --browser edge",
+    "edge:headed:mobile": "cypress run --config-file mobile.config.js --headed --browser edge",
+    "edge:headless:notebooks": "cypress run --browser edge",
+    "edge:headless:mobile": "cypress run --config-file mobile.config.js --browser edge",
+    "chrome:headed:notebooks": "cypress run --headed --browser chrome",
+    "chrome:headed:mobile": "cypress run --config-file mobile.config.js --headed --browser chrome",  
+    "chrome:headless:notebooks": "cypress run --browser chrome",
+    "chrome:headless:mobile": "cypress run --config-file mobile.config.js --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leferchian/WebTestLes6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leferchian/WebTestLes6/issues"
+  },
+  "homepage": "https://github.com/Leferchian/WebTestLes6#readme",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
