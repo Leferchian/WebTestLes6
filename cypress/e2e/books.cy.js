@@ -10,7 +10,7 @@ it("Should successfully add new book", () => {
     "",
     "Chuck Palahniuk"
   );
-
+ 
   cy.contains("Fight Club").should("be.visible");
 });
 
